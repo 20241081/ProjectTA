@@ -5,24 +5,87 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 10f;
+    // PlayerMove 구현 변수
+    public float moveSpeed;
     public float sideSpeed = 6.0f;
+    public float jumpForce = 6.0f;
+
+    public float lineDistance = 6.0f;
+    private int line = 1;
+    private Vector3 targetPos;
+
+    private bool isGround;
+    private bool isSliding;
+
+    // 참조 컴포넌트
+    private Rigidbody rb;
+    private CapsuleCollider col;
+
+    private void Awake()
+    {
+        InitPlayer();
+        rb = GetComponent<Rigidbody>();
+        col = GetComponent<CapsuleCollider>();
+    }
 
     private void Update()
     {
-        transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed, Space.World);
-        
-        //todo : 1번째 줄일때의 A키 입력 제한, 3번째 줄일때의 D키 입력 제한
+        PlayerMove();
+    }
 
-        if (Input.GetKeyDown(KeyCode.A))
+    private void InitPlayer()
+    {
+        isGround = true;
+        isSliding = false;
+
+        moveSpeed = 10f;
+        line = 1;
+        targetPos = transform.position;
+    }
+
+    private void PlayerMove()
+    {
+        // 플레이어 이동
+        transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed, Space.World);
+
+        // 플레이어 좌우 이동
+        if (Input.GetKeyDown(KeyCode.A) && line > 0)
         {
-            transform.Translate(Vector3.left * sideSpeed * Time.deltaTime, Space.World);
-            Debug.Log("A");
+            line--;
         }
-        else if (Input.GetKeyDown(KeyCode.D))
+        else if (Input.GetKeyDown(KeyCode.D) && line < 2)
         {
-            transform.Translate(Vector3.right * sideSpeed * Time.deltaTime, Space.World);
-            Debug.Log("D");
+            line++;
+        }
+
+        targetPos = new Vector3(line * lineDistance - lineDistance,
+                                transform.position.y,
+                                transform.position.z);
+
+        transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * sideSpeed);
+
+        // 플레이어 점프 및 슬라이딩
+        if (isGround)
+        {
+            if(Input.GetKeyDown(KeyCode.W)|| Input.GetKeyDown(KeyCode.Space))
+            {
+                isGround = false;
+                rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            }
+        }
+
+        if(!isSliding && Input.GetKeyDown(KeyCode.S))
+        {
+            isSliding = false;
+            // todo : 슬라이딩 구현 및 콜라이더 범위 수정
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGround = true;
         }
     }
 }
