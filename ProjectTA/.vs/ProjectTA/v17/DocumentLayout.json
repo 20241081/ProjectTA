@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ProjectTA\\ProjectTA\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\manager\\manager_gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\manager\\manager_gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\playercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\projectta\\projectta\\assets\\script\\obstacle\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\obstacle\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\projectta\\projectta\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\assets\\script\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerCollision.cs",
-              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerCollision.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\PlayerCollision.cs",
-              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerCollision.cs",
-              "RelativeToolTip": "Assets\\Script\\PlayerCollision.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAuwBoAAAAgAAAA",
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CameraController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Script\\CameraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T14:42:38.315Z",
+              "WhenOpened": "2024-09-25T13:59:49.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Manager_GameScene.cs",
-              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\Manager_GameScene.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Manager\\Manager_GameScene.cs",
-              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\Manager_GameScene.cs",
-              "RelativeToolTip": "Assets\\Script\\Manager\\Manager_GameScene.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T11:39:50.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
-              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAkwAgAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T10:33:14.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Obstacle.cs",
-              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Obstacle\\Obstacle.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Obstacle\\Obstacle.cs",
-              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Obstacle\\Obstacle.cs",
-              "RelativeToolTip": "Assets\\Script\\Obstacle\\Obstacle.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAAEEAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T04:41:56.88Z",
               "EditorCaption": ""
             }
           ]
