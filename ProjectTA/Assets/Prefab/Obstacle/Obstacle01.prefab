@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 322df97115773fd438ead81567ef1fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetRail: 1
+  TargetRail: 0
   ObstacleType: 1
   Trigger_CAUTION: 0
   DelayTime: 3

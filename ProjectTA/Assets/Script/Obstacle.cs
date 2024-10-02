@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    public int TargetRail;  //등장할 레일 (좌측부터 1)
+    public int TargetRail;  //등장할 레일 (좌측부터 0)
     public int ObstacleType;    //장애물 종류 (1~4)
     public bool Trigger_CAUTION = false;    //경고범위 충돌
     public float DelayTime = 2.0f;  //장애물이 사라지기 시작할때까지 시간
@@ -13,11 +13,12 @@ public class Obstacle : MonoBehaviour
 
     public GameObject CAUTIONEffect;    //경고 이펙트
     public GameObject Model;    //장애물 모델
-    public GameObject Player;   //플레이어
+    GameObject Player;   //플레이어
 
     private void Start()
     {
         TargetPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+        Player = GameObject.Find("Player");
     }
     void FixedUpdate()
     {
@@ -39,7 +40,7 @@ public class Obstacle : MonoBehaviour
 
         if (Model.transform.position == TargetPos)
         {
-            if (PlayerCollision.CurrentRail == TargetRail)
+            if (PlayerController.line == Rail)
             {
                 if (Player.transform.position.z >= transform.position.z + 1)
                 {

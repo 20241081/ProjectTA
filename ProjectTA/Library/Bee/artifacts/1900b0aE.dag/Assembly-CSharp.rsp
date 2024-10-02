@@ -354,7 +354,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Script/CameraController.cs"
 "Assets/Script/Manager/Manager_GameScene.cs"
-"Assets/Script/Obstacle/Obstacle.cs"
+"Assets/Script/Obstacle.cs"
 "Assets/Script/PlayerCollision.cs"
 "Assets/Script/PlayerController.cs"
 -langversion:9.0

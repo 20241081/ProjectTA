@@ -11,11 +11,15 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 6.0f;
 
     public float lineDistance = 6.0f;
-    private int line = 1;
+    public static int line = 1;
     private Vector3 targetPos;
 
     private bool isGround;
     private bool isSliding;
+
+    // 장애물 Collision 변수
+    private RaycastHit rayHit_Left; private RaycastHit rayHit_Right; private RaycastHit rayHit_Forward;
+    float rayDistance = 5f;
 
     // 참조 컴포넌트
     private Rigidbody rb;
@@ -26,6 +30,24 @@ public class PlayerController : MonoBehaviour
         InitPlayer();
         rb = GetComponent<Rigidbody>();
         col = GetComponent<CapsuleCollider>();
+    }
+    private void FixedUpdate()  // 장애물 감지
+    {
+        if (Physics.Raycast(transform.position, Vector3.left * rayDistance, out rayHit_Left, rayDistance))    // 좌측
+        {
+            if (rayHit_Left.transform.gameObject.layer == LayerMask.NameToLayer("Obstacle"))
+                rayHit_Left.transform.GetComponent<Obstacle>().Trigger_CAUTION = true;
+        }
+        if (Physics.Raycast(transform.position, Vector3.right * rayDistance, out rayHit_Right, rayDistance))    // 우측
+        {
+            if (rayHit_Right.transform.gameObject.layer == LayerMask.NameToLayer("Obstacle"))
+                rayHit_Right.transform.GetComponent<Obstacle>().Trigger_CAUTION = true;
+        }
+        if (Physics.Raycast(transform.position, Vector3.forward, out rayHit_Forward, 1))    // 정면
+        {
+            if (rayHit_Forward.transform.gameObject.layer == LayerMask.NameToLayer("Obstacle"))
+                rayHit_Forward.transform.GetComponent<Obstacle>().Trigger_CAUTION = true;
+        }
     }
 
     private void Update()
