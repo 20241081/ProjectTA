@@ -355,7 +355,6 @@
 "Assets/Script/CameraController.cs"
 "Assets/Script/Manager/Manager_GameScene.cs"
 "Assets/Script/Obstacle.cs"
-"Assets/Script/PlayerCollision.cs"
 "Assets/Script/PlayerController.cs"
 -langversion:9.0
 /deterministic

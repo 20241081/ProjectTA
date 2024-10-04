@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\ProjectTA\\ProjectTA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\playercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\projectta\\projectta\\assets\\script\\manager\\manager_gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\manager\\manager_gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\projectta\\projectta\\assets\\script\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerCollision.cs",
-              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerCollision.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\PlayerCollision.cs",
-              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerCollision.cs",
-              "RelativeToolTip": "Assets\\Script\\PlayerCollision.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAsAAAA",
+              "DocumentIndex": 3,
+              "Title": "Obstacle.cs",
+              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Obstacle.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Obstacle.cs",
+              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Obstacle.cs",
+              "RelativeToolTip": "Assets\\Script\\Obstacle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T04:32:06.321Z",
+              "WhenOpened": "2024-10-04T12:53:45.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Manager_GameScene.cs",
+              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\Manager_GameScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Manager\\Manager_GameScene.cs",
+              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\Manager_GameScene.cs",
+              "RelativeToolTip": "Assets\\Script\\Manager\\Manager_GameScene.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwBMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T12:26:59.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
               "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAA0wCIAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T10:33:14.347Z"
+              "WhenOpened": "2024-09-19T10:33:14.347Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CameraController.cs",
               "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\CameraController.cs",
               "RelativeToolTip": "Assets\\Script\\CameraController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T13:59:49.938Z"
+              "WhenOpened": "2024-09-25T13:59:49.938Z",
+              "EditorCaption": ""
             }
           ]
         }

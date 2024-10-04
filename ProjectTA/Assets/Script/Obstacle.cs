@@ -38,7 +38,7 @@ public class Obstacle : MonoBehaviour
     {
         Destroy(CAUTIONEffect); //경고 제거
 
-        if (Model.transform.position == TargetPos)
+        if (Model.transform.position == TargetPos)  // 장애물이 위치에 도달
         {
             if (PlayerController.line == Rail)
             {
