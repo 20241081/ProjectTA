@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour
 
     public float lineDistance = 6.0f;
     public static int line = 1;
+    public int LINE { 
+        get => line;
+    }
     private Vector3 targetPos;
 
     private bool isGround;
@@ -68,7 +71,7 @@ public class PlayerController : MonoBehaviour
     private void PlayerMove()
     {
         // 플레이어 이동
-        transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed, Space.World);
+        transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed);
 
         // 플레이어 좌우 이동
         if (Input.GetKeyDown(KeyCode.A) && line > 0)

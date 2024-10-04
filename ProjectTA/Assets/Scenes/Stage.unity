@@ -955,8 +955,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e400bf1b103bec54fa98ead805ca86ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
-  mainCamera: {fileID: 963194225}
+  offsetX: 0
+  offsetY: 10
+  offsetZ: -10
+  cameraSpeed: 0
+  Player: {fileID: 0}
 --- !u!1 &968999307
 GameObject:
   m_ObjectHideFlags: 0
