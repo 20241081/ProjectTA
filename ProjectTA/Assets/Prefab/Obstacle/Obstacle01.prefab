@@ -157,7 +157,6 @@ MonoBehaviour:
   DelayTime: 3
   CAUTIONEffect: {fileID: 4081692392292129533}
   Model: {fileID: 115156319127178831}
-  Player: {fileID: 0}
 --- !u!1 &4081692392292129533
 GameObject:
   m_ObjectHideFlags: 0

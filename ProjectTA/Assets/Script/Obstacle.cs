@@ -25,16 +25,11 @@ public class Obstacle : MonoBehaviour
         if (Trigger_CAUTION)
         {
             this.gameObject.GetComponent<BoxCollider>().enabled = false;    //중복 감지 방지
-            switch (ObstacleType)   //장애물 종류에 따른 함수 실행
-            {
-                case 1:
-                    Obstacle01(TargetRail);
-                    break;
-            }
+            Obstacle_Apia(TargetRail);  // 장애물 등장
         }
     }
 
-    private void Obstacle01(int Rail)
+    private void Obstacle_Apia(int Rail)
     {
         Destroy(CAUTIONEffect); //경고 제거
 
@@ -51,7 +46,10 @@ public class Obstacle : MonoBehaviour
                     Manager_GameScene.PlayerHP--;
                     Player.GetComponentInParent<PlayerController>().moveSpeed *= 0.3f;  //감속
                     Trigger_CAUTION = false;
-                    StartCoroutine(Disapia_Obs01());   //장애물 사라지기
+                    if (ObstacleType == 1)
+                        StartCoroutine(Disapia_Obs01());   //장애물 사라지기
+                    else
+                        return;
                 }
             }
         }
