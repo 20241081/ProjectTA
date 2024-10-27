@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
 
     // 장애물 Collision 변수
     private RaycastHit rayHit_Left; private RaycastHit rayHit_Right; private RaycastHit rayHit_Forward;
-    float rayDistance = 5f;
+    float rayDistance = 3f;
 
     // 참조 컴포넌트
     private Rigidbody rb;

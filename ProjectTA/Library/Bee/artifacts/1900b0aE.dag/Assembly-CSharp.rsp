@@ -356,6 +356,7 @@
 "Assets/Script/Manager/Manager_GameScene.cs"
 "Assets/Script/Manager/ObstacleGenerator.cs"
 "Assets/Script/Obstacle.cs"
+"Assets/Script/Parabola.cs"
 "Assets/Script/PlayerController.cs"
 -langversion:9.0
 /deterministic

@@ -7,11 +7,19 @@
       "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\manager\\obstaclegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\manager\\manager_gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\manager\\manager_gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\projectta\\projectta\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\parabola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\parabola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,8 +34,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Parabola.cs",
+              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Parabola.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Parabola.cs",
+              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Parabola.cs",
+              "RelativeToolTip": "Assets\\Script\\Parabola.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAuwDAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T19:16:10.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Manager_GameScene.cs",
+              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\Manager_GameScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Manager\\Manager_GameScene.cs",
+              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\Manager_GameScene.cs",
+              "RelativeToolTip": "Assets\\Script\\Manager\\Manager_GameScene.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAkwDMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T18:47:57.541Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,48 +69,47 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Manager\\ObstacleGenerator.cs",
               "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\ObstacleGenerator.cs",
               "RelativeToolTip": "Assets\\Script\\Manager\\ObstacleGenerator.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwBUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T15:16:45.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Obstacle.cs",
               "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Obstacle.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Obstacle.cs",
               "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Obstacle.cs",
               "RelativeToolTip": "Assets\\Script\\Obstacle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T05:07:07.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CameraController.cs",
               "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\CameraController.cs",
               "RelativeToolTip": "Assets\\Script\\CameraController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwCIAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T13:59:49.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
               "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwBgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T13:14:09.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T13:14:09.409Z"
             }
           ]
         }
