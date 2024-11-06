@@ -8,6 +8,7 @@ public class ObstacleGenerator : MonoBehaviour
     public GameObject Obstacle01;
     public GameObject Obstacle02;
     public GameObject Obstacle03;
+    public GameObject Obstacle04;
 
     public GameObject Player;
     public Camera mainCamera;
@@ -31,14 +32,21 @@ public class ObstacleGenerator : MonoBehaviour
         {
             delta = 0;
             Distance = 0;
-            Gen_Rail = Random.Range(-1, 2);    // -1~1
-            switch (Gen_Rail)
+            Gen_Type = Random.Range(1, 5);    // 1~5
+            switch (Gen_Type)
             {
-                case 0:
-                    Gen_Type = Random.Range(2, 4);   //2~3
+                case 1:
+                    Gen_Rail = Random.Range(-1, 1);   //-1~0
+                    if (Gen_Rail == 0)
+                    {
+                        Gen_Rail = 1;
+                    }
+                    break;
+                case 4:
+                    Gen_Rail = 0;
                     break;
                 default:
-                    Gen_Type = Random.Range(1, 4);   //1~3
+                    Gen_Rail = Random.Range(-1, 2);   //-1~0
                     break;
             }
             
@@ -66,6 +74,9 @@ public class ObstacleGenerator : MonoBehaviour
                 break;
             case 3:
                 gameObstacle = Instantiate(Obstacle03);
+                break;
+            case 4:
+                gameObstacle = Instantiate(Obstacle04);
                 break;
             default:
                 return;
@@ -100,6 +111,6 @@ public class ObstacleGenerator : MonoBehaviour
     bool IsOffscreen(GameObject obstacle)   // 삭제를 위한 위치 확인
     {
         Vector3 viewPortPos = mainCamera.WorldToViewportPoint(obstacle.transform.position);
-        return viewPortPos.x < 0 || viewPortPos.x > 1 || viewPortPos.y < 0 || viewPortPos.y > 1 || viewPortPos.z < 0;
+        return viewPortPos.x < -10 || viewPortPos.x > 10 || viewPortPos.y < -10 || viewPortPos.y > 10 || viewPortPos.z < -10;
     }
 }

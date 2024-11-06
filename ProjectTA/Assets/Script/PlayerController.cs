@@ -21,8 +21,8 @@ public class PlayerController : MonoBehaviour
     private bool isSliding;
 
     // 장애물 Collision 변수
-    private RaycastHit rayHit_Left; private RaycastHit rayHit_Right; private RaycastHit rayHit_Forward;
-    float rayDistance = 3f;
+    private RaycastHit rayHit_Left; private RaycastHit rayHit_Right; private RaycastHit rayHit_Forward; private RaycastHit rayHit_Up;
+    float rayDistance = 1f;
 
     // 참조 컴포넌트
     private Rigidbody rb;
@@ -38,18 +38,31 @@ public class PlayerController : MonoBehaviour
     {
         if (Physics.Raycast(transform.position, Vector3.left * rayDistance, out rayHit_Left, rayDistance))    // 좌측
         {
-            if (rayHit_Left.transform.gameObject.layer == LayerMask.NameToLayer("Obstacle"))
+            if (rayHit_Left.collider.CompareTag("Obstacle"))
                 rayHit_Left.transform.GetComponent<Obstacle>().Trigger_CAUTION = true;
+            else if (rayHit_Left.collider.CompareTag("Obstacle_Model"))
+                rayHit_Left.transform.parent.GetComponent<Obstacle>().Trigger_DAMAGE = true;
         }
-        if (Physics.Raycast(transform.position, Vector3.right * rayDistance, out rayHit_Right, rayDistance))    // 우측
+        else if (Physics.Raycast(transform.position, Vector3.right * rayDistance, out rayHit_Right, rayDistance))    // 우측
         {
-            if (rayHit_Right.transform.gameObject.layer == LayerMask.NameToLayer("Obstacle"))
+            if (rayHit_Right.collider.CompareTag("Obstacle"))
                 rayHit_Right.transform.GetComponent<Obstacle>().Trigger_CAUTION = true;
+            else if (rayHit_Right.collider.CompareTag("Obstacle_Model"))
+                rayHit_Right.transform.parent.GetComponent<Obstacle>().Trigger_DAMAGE = true;
         }
-        if (Physics.Raycast(transform.position, Vector3.forward, out rayHit_Forward, 1))    // 정면
+        else if (Physics.Raycast(transform.position, Vector3.forward, out rayHit_Forward, 1))    // 정면
         {
-            if (rayHit_Forward.transform.gameObject.layer == LayerMask.NameToLayer("Obstacle"))
+            if (rayHit_Forward.collider.CompareTag("Obstacle"))
                 rayHit_Forward.transform.GetComponent<Obstacle>().Trigger_CAUTION = true;
+            else if (rayHit_Forward.collider.CompareTag("Obstacle_Model"))
+                rayHit_Forward.transform.parent.GetComponent<Obstacle>().Trigger_DAMAGE = true;
+        }
+        else if (Physics.Raycast(transform.position, Vector3.up, out rayHit_Up, 1))    // 정면
+        {
+            if (rayHit_Up.collider.CompareTag("Obstacle"))
+                rayHit_Up.transform.GetComponent<Obstacle>().Trigger_CAUTION = true;
+            else if (rayHit_Up.collider.CompareTag("Obstacle_Model"))
+                rayHit_Up.transform.parent.GetComponent<Obstacle>().Trigger_DAMAGE = true;
         }
     }
 

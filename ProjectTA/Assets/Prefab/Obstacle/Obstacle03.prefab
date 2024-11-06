@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 656360205835121553}
   - component: {fileID: 8656264592189527669}
   - component: {fileID: 8399966366571369567}
+  - component: {fileID: 2320236303168186239}
   m_Layer: 6
   m_Name: Obstacle_Model
-  m_TagString: Untagged
+  m_TagString: Obstacle_Model
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,6 +84,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2320236303168186239
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115156319127178831}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000001, y: 2, z: 1.0000002}
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &3279120661769823056
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,7 +159,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4, y: 1, z: 10}
+  m_Size: {x: 4, y: 1, z: 15}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4586059339454103390
 MonoBehaviour:
@@ -152,12 +174,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetRail: 1
-  ObstacleType: 2
+  ObstacleType: 3
   Trigger_CAUTION: 0
+  Trigger_DAMAGE: 0
   DelayTime: 3
   CAUTIONEffect: {fileID: 4081692392292129533}
   Model: {fileID: 115156319127178831}
-  MainCamera: {fileID: 0}
 --- !u!1 &4081692392292129533
 GameObject:
   m_ObjectHideFlags: 0
