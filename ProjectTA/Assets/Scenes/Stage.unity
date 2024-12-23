@@ -683,6 +683,8 @@ MonoBehaviour:
   moveSpeed: 5
   sideSpeed: 5
   jumpForce: 6
+  sideSpeed: 7
+  jumpForce: 10
   lineDistance: 6
 --- !u!54 &822836808
 Rigidbody:
