@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class ObstacleGenerator : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class ObstacleGenerator : MonoBehaviour
 
     public GameObject Player;
     public Camera mainCamera;
+    
 
     public float delta = 0;
     public float standardDist = 12.0f;  // 장애물 생성까지 거리
@@ -111,6 +113,6 @@ public class ObstacleGenerator : MonoBehaviour
     bool IsOffscreen(GameObject obstacle)   // 삭제를 위한 위치 확인
     {
         Vector3 viewPortPos = mainCamera.WorldToViewportPoint(obstacle.transform.position);
-        return viewPortPos.x < -10 || viewPortPos.x > 10 || viewPortPos.y < -10 || viewPortPos.y > 10 || viewPortPos.z < -10;
+        return viewPortPos.x < -1 || viewPortPos.x > 1 || viewPortPos.z < -600;
     }
 }

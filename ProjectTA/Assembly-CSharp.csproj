@@ -62,8 +62,11 @@
   <ItemGroup>
     <Compile Include="Assets\Script\PlayerController.cs" />
     <Compile Include="Assets\Script\Manager\Manager_GameScene.cs" />
+    <Compile Include="Assets\Script\Button.cs" />
+    <Compile Include="Assets\Script\UI_GameOverPanel.cs" />
     <Compile Include="Assets\Script\Manager\ObstacleGenerator.cs" />
     <Compile Include="Assets\Script\Parabola.cs" />
+    <Compile Include="Assets\Script\Manager\gameManager.cs" />
     <Compile Include="Assets\Script\CameraController.cs" />
     <Compile Include="Assets\Script\Obstacle.cs" />
   </ItemGroup>

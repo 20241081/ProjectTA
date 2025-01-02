@@ -7,9 +7,10 @@ using UnityEngine.UI;
 public class Manager_GameScene : MonoBehaviour
 {
     GameObject player;
+    GameObject GameOverPanel;
 
     public static int PlayerHP;
-    public static float Score;
+    public static int Score;
     public static bool Progressing; // 게임오버 여부
     float delta;    // 초과시간 기록
 
@@ -17,6 +18,7 @@ public class Manager_GameScene : MonoBehaviour
 
     public TMP_Text PlayerHPUI;
     public TMP_Text ScoreUI;
+    public TMP_Text CoinUI;
     private void Start()
     {
         Time.timeScale = 1f;
@@ -25,6 +27,8 @@ public class Manager_GameScene : MonoBehaviour
         delta = 0f;
         ScorePerDistance = 0;
         player = GameObject.Find("Player");
+        GameOverPanel = GameObject.Find("GameOverPanel");
+        GameOverPanel.SetActive(false);
     }
 
     void Update()
@@ -33,12 +37,19 @@ public class Manager_GameScene : MonoBehaviour
         {
             Time.timeScale = 0f;
             Debug.Log("게임오버");
+            GameOverPanel.SetActive(true); // 게임오버 UI 표시
+            if (gameManager.Instance.nowPlayer.BestScore < Score)   // 최고 스코어 검사
+            {
+                gameManager.Instance.nowPlayer.BestScore = Score;
+            }
             return;
         }
 
         PlayerHPUI.text = "HP : " + PlayerHP;   // HP UI업데이트
 
-        if (PlayerHP <= 0)  // 게임오버
+        CoinUI.text = "coin : " + gameManager.Instance.nowPlayer.Coin;  // coin UI 업데이트
+
+        if (PlayerHP <= 0 && Progressing)  // 게임오버
         {
             Progressing = false;
         }
