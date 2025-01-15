@@ -60,15 +60,24 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.34f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\Item\Heal_Script.cs" />
+    <Compile Include="Assets\Script\Item\Shield_Script.cs" />
+    <Compile Include="Assets\Script\Item\Pool_Coin.cs" />
     <Compile Include="Assets\Script\PlayerController.cs" />
     <Compile Include="Assets\Script\Manager\Manager_GameScene.cs" />
     <Compile Include="Assets\Script\Button.cs" />
+    <Compile Include="Assets\Script\Item\Pool_Item.cs" />
     <Compile Include="Assets\Script\UI_GameOverPanel.cs" />
     <Compile Include="Assets\Script\Manager\ObstacleGenerator.cs" />
     <Compile Include="Assets\Script\Parabola.cs" />
+    <Compile Include="Assets\Script\Item\Pool_Booster.cs" />
+    <Compile Include="Assets\Script\Item\Pool_Shield.cs" />
     <Compile Include="Assets\Script\Manager\gameManager.cs" />
     <Compile Include="Assets\Script\CameraController.cs" />
+    <Compile Include="Assets\Script\Item\Coin_Script.cs" />
+    <Compile Include="Assets\Script\Item\Pool_Heal.cs" />
     <Compile Include="Assets\Script\Obstacle.cs" />
+    <Compile Include="Assets\Script\Item\booster_Script.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
