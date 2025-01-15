@@ -77,7 +77,8 @@ public class PlayerController : MonoBehaviour
         if(!isSliding && Input.GetKeyDown(KeyCode.S))
         {
             isSliding = false;
-            // todo : 슬라이딩 구현 및 콜라이더 범위 수정
+            Debug.Log("슬라이딩");
+            // todo : 슬라이딩 구현 및 콜라이더 범위 수정1
         }
     }
 
