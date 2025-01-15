@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour
         isGround = true;
         isSliding = false;
 
-        moveSpeed = 10f;
+        moveSpeed = 16f;
         line = 1;
         targetPos = transform.position;
     }
