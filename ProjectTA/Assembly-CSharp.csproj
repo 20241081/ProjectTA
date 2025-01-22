@@ -63,6 +63,7 @@
     <Compile Include="Assets\Script\Item\Heal_Script.cs" />
     <Compile Include="Assets\Script\Item\Shield_Script.cs" />
     <Compile Include="Assets\Script\Item\Pool_Coin.cs" />
+    <Compile Include="Assets\Script\Manager\obstaclePooler.cs" />
     <Compile Include="Assets\Script\PlayerController.cs" />
     <Compile Include="Assets\Script\Manager\Manager_GameScene.cs" />
     <Compile Include="Assets\Script\Button.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Assets\Script\UI_GameOverPanel.cs" />
     <Compile Include="Assets\Script\Manager\ObstacleGenerator.cs" />
     <Compile Include="Assets\Script\Parabola.cs" />
+    <Compile Include="Assets\Script\Manager\ObstaclePool.cs" />
     <Compile Include="Assets\Script\Item\Pool_Booster.cs" />
     <Compile Include="Assets\Script\Item\Pool_Shield.cs" />
     <Compile Include="Assets\Script\Manager\gameManager.cs" />

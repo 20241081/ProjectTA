@@ -16,7 +16,7 @@ public class gameManager : MonoBehaviour
 {
     private static gameManager _instance;
 
-    public static bool renewFile = false; // 파일 갱신
+    public static bool renewFile = false; // 파일 여부
 
     public PlayerData nowPlayer = new PlayerData();
 

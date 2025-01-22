@@ -17,6 +17,7 @@ public class Manager_GameScene : MonoBehaviour
     public static int coin_a;   // 플레이 중 획득한 코인
     public static bool Progressing; // 게임오버 여부
     float delta;    // 초과시간 기록
+    public static int activedObstacleRail; // 현재 장애물 있는 레일;
 
     private int ScorePerDistance;   // 거리에 따른 스코어
 

@@ -19,10 +19,6 @@ public class Pool_Item : MonoBehaviour
     public GameObject coinPtn02;
     public GameObject coinPtn03;
     public GameObject coinPtn04;
-    void Start()
-    {
-        
-    }
 
     void Update()
     {

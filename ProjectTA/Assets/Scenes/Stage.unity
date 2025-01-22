@@ -1905,10 +1905,12 @@ GameObject:
   - component: {fileID: 1090065620}
   - component: {fileID: 1090065619}
   - component: {fileID: 1090065623}
+  - component: {fileID: 1090065628}
   - component: {fileID: 1090065622}
   - component: {fileID: 1090065624}
   - component: {fileID: 1090065625}
   - component: {fileID: 1090065626}
+  - component: {fileID: 1090065627}
   m_Layer: 0
   m_Name: '@SceneManager'
   m_TagString: Untagged
@@ -1992,7 +1994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80438adfd5066ab4b8398373b6af418a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coolTime_Coin: 10
+  coolTime_Coin: 1
   coolTime_Item: 20
   coinPool: {fileID: 1090065626}
   coinPtn01: {fileID: 2311709699413465929, guid: f980b0e326e0a8547adaae9e52648d53, type: 3}
@@ -2046,6 +2048,46 @@ MonoBehaviour:
     size: 3
   - prefab: {fileID: 7551044366303841910, guid: 1d2be1bedb0512d4a9eaebf9d186cc59, type: 3}
     size: 3
+--- !u!114 &1090065627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090065618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cc46e3a1e62af74c929bf7ecfc57368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - obstaclePrefab: {fileID: 3279120661769823056, guid: 4e2eba09b2798dc4382bd8dacf8cc416, type: 3}
+    size: 5
+  - obstaclePrefab: {fileID: 3279120661769823056, guid: 1b4ee11860512ed4dad17c1ce767a04f, type: 3}
+    size: 5
+  - obstaclePrefab: {fileID: 3279120661769823056, guid: 9b56989c01eb9484199ee52847cb36e6, type: 3}
+    size: 5
+  - obstaclePrefab: {fileID: 3279120661769823056, guid: 5ab3c6ce82c265040a536182ff203599, type: 3}
+    size: 5
+--- !u!114 &1090065628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090065618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab380295efeed9c40910ec6ad0f1c131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coolTime_Obstacle: 12
+  player: {fileID: 822836802}
+  obsPool: {fileID: 1090065627}
+  obs1: {fileID: 3279120661769823056, guid: 4e2eba09b2798dc4382bd8dacf8cc416, type: 3}
+  obs2: {fileID: 3279120661769823056, guid: 1b4ee11860512ed4dad17c1ce767a04f, type: 3}
+  obs3: {fileID: 3279120661769823056, guid: 9b56989c01eb9484199ee52847cb36e6, type: 3}
+  obs4: {fileID: 3279120661769823056, guid: 5ab3c6ce82c265040a536182ff203599, type: 3}
 --- !u!1 &1197856805
 GameObject:
   m_ObjectHideFlags: 0
