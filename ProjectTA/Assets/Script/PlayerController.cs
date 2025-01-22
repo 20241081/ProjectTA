@@ -120,10 +120,8 @@ public class PlayerController : MonoBehaviour
         {
             isSliding = true;
             player.transform.Rotate(new Vector3(45, 0, 0));
-            Debug.Log("sliding");
+            rb.mass = 2;
             StartCoroutine("SlingDelay");
-            player.transform.Rotate(new Vector3(0, 0, 0));
-            isSliding = false;
         }
     }
 
@@ -138,8 +136,8 @@ public class PlayerController : MonoBehaviour
     IEnumerator SlingDelay()
     {
         yield return new WaitForSeconds(1f);
-        Debug.Log("sliding end");
-        player.transform.Rotate(new Vector3(0, 0, 0));
+        player.transform.Rotate(new Vector3(-45, 0, 0));
         isSliding = false;
+        rb.mass = 1;
     }
 }
