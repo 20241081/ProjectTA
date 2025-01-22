@@ -68,8 +68,11 @@
     <Compile Include="Assets\Script\Manager\Manager_GameScene.cs" />
     <Compile Include="Assets\Script\Button.cs" />
     <Compile Include="Assets\Script\Item\Pool_Item.cs" />
+    <Compile Include="Assets\Script\Manager\UIManager.cs" />
     <Compile Include="Assets\Script\UI_GameOverPanel.cs" />
+    <Compile Include="Assets\Script\Manager\TitleUIManager.cs" />
     <Compile Include="Assets\Script\Manager\ObstacleGenerator.cs" />
+    <Compile Include="Assets\Script\Manager\TitleManager.cs" />
     <Compile Include="Assets\Script\Parabola.cs" />
     <Compile Include="Assets\Script\Manager\ObstaclePool.cs" />
     <Compile Include="Assets\Script\Item\Pool_Booster.cs" />

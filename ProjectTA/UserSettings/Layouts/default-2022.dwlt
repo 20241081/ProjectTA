@@ -298,8 +298,8 @@ MonoBehaviour:
     y: 267.5
     width: 858.5
     height: 292.5
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -376,23 +376,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2efbffff
-      m_LastClickedID: -1234
-      m_ExpandedIDs: 30fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: fe0bfeff640cfeff5a21feff6a35feff90bbfeff96bcfeff5446ffffb6bdffff7eccffff02fbfffffa59000014900000e2900000e89400003a950000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: EventSystem
-        m_OriginalName: EventSystem
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 23248
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -494,7 +494,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script/Manager
+    - Assets/Prefab/Obstacle
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -502,16 +502,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Script/Manager
+  - Assets/Prefab/Obstacle
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\ProjectTA\ProjectTA
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 845d0000
-    m_LastClickedID: 23940
-    m_ExpandedIDs: 000000005c5d0000665d0000865d000000ca9a3bffffff7f
+    m_SelectedIDs: 985d0000
+    m_LastClickedID: 23960
+    m_ExpandedIDs: 00000000685d00006a5d0000745d0000945d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -539,7 +539,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005c5d0000
+    m_ExpandedIDs: 00000000685d00006a5d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -783,9 +783,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: -201}
+      snapOffset: {x: 0, y: 45.5}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 2
+      snapCorner: 0
       id: unity-transform-toolbar
       index: 0
       layout: 2
@@ -1023,9 +1023,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.155669, y: 1.7002392, z: 42.151466}
+    m_Target: {x: -107.991516, y: -96.19784, z: 168.45082}
     speed: 2
-    m_Value: {x: -4.155669, y: 1.7002392, z: 42.151466}
+    m_Value: {x: -107.991516, y: -96.19784, z: 168.45082}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1071,13 +1071,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.11215627, y: 0.084698126, z: -0.009603166, w: -0.9899879}
+    m_Target: {x: -0.22579107, y: 0.2703101, z: -0.06538023, w: -0.9335338}
     speed: 2
-    m_Value: {x: -0.1121607, y: 0.08470147, z: -0.009603545, w: -0.99002695}
+    m_Value: {x: -0.22581263, y: 0.2703359, z: -0.065386474, w: -0.93362296}
   m_Size:
-    m_Target: 25.838058
+    m_Target: 119.85656
     speed: 2
-    m_Value: 25.838058
+    m_Value: 119.85656
   m_Ortho:
     m_Target: 0
     speed: 2

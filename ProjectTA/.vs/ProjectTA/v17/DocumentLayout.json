@@ -3,52 +3,24 @@
   "WorkspaceRootPath": "C:\\ProjectTA\\ProjectTA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\projectta\\projectta\\assets\\script\\manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\projectta\\projectta\\assets\\script\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\projectta\\projectta\\assets\\script\\manager\\manager_gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\projectta\\projectta\\assets\\script\\manager\\titleuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\manager\\titleuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\projectta\\projectta\\assets\\script\\manager\\titlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\manager\\titlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\manager\\manager_gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\manager\\manager_gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\projectta\\projectta\\assets\\script\\manager\\obstaclegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\manager\\obstaclegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\projectta\\projectta\\assets\\script\\manager\\obstaclepooler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\manager\\obstaclepooler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\projectta\\projectta\\assets\\script\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\projectta\\projectta\\assets\\script\\item\\pool_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\item\\pool_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\item\\pool_coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\item\\pool_coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\manager\\obstaclepool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\manager\\obstaclepool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\item\\pool_heal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\item\\pool_heal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\item\\heal_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\item\\heal_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\item\\coin_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\item\\coin_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\ProjectTA\\ProjectTA\\assets\\script\\item\\pool_booster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\item\\pool_booster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\projectta\\projectta\\assets\\script\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,159 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "gameManager.cs",
-              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\gameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Manager\\gameManager.cs",
-              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\gameManager.cs",
-              "RelativeToolTip": "Assets\\Script\\Manager\\gameManager.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAkwCEAAAAFAAAA",
+              "DocumentIndex": 4,
+              "Title": "Button.cs",
+              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Button.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Button.cs",
+              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Button.cs",
+              "RelativeToolTip": "Assets\\Script\\Button.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T05:25:35.413Z",
+              "WhenOpened": "2025-01-22T07:06:16.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "TitleManager.cs",
+              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\TitleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Manager\\TitleManager.cs",
+              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\TitleManager.cs",
+              "RelativeToolTip": "Assets\\Script\\Manager\\TitleManager.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwDMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T06:58:08.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Manager_GameScene.cs",
               "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\Manager_GameScene.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Manager\\Manager_GameScene.cs",
               "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\Manager_GameScene.cs",
               "RelativeToolTip": "Assets\\Script\\Manager\\Manager_GameScene.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAUwCAAAAAdAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAUwDUAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T05:17:58.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ObstacleGenerator.cs",
-              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\ObstacleGenerator.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Manager\\ObstacleGenerator.cs",
-              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\ObstacleGenerator.cs",
-              "RelativeToolTip": "Assets\\Script\\Manager\\ObstacleGenerator.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAABFAAAA",
+              "DocumentIndex": 1,
+              "Title": "TitleUIManager.cs",
+              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\TitleUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Manager\\TitleUIManager.cs",
+              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\TitleUIManager.cs",
+              "RelativeToolTip": "Assets\\Script\\Manager\\TitleUIManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T05:12:34.411Z",
+              "WhenOpened": "2025-01-22T06:58:07.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "obstaclePooler.cs",
-              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\obstaclePooler.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Manager\\obstaclePooler.cs",
-              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\obstaclePooler.cs",
-              "RelativeToolTip": "Assets\\Script\\Manager\\obstaclePooler.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAuwF8AAAA3AAAA",
+              "DocumentIndex": 0,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Manager\\UIManager.cs",
+              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Script\\Manager\\UIManager.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAUwBkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T04:45:01.152Z",
+              "WhenOpened": "2025-01-22T06:58:05.444Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Obstacle.cs",
-              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Obstacle.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Obstacle.cs",
-              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Obstacle.cs",
-              "RelativeToolTip": "Assets\\Script\\Obstacle.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAkwEsAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T05:16:53.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Pool_Item.cs",
-              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Item\\Pool_Item.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Item\\Pool_Item.cs",
-              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Item\\Pool_Item.cs",
-              "RelativeToolTip": "Assets\\Script\\Item\\Pool_Item.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAuwDoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T04:54:29.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ObstaclePool.cs",
-              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\ObstaclePool.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Manager\\ObstaclePool.cs",
-              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\ObstaclePool.cs",
-              "RelativeToolTip": "Assets\\Script\\Manager\\ObstaclePool.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAUwBEAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T07:37:25.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Pool_Heal.cs",
-              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Item\\Pool_Heal.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Item\\Pool_Heal.cs",
-              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Item\\Pool_Heal.cs",
-              "RelativeToolTip": "Assets\\Script\\Item\\Pool_Heal.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAuwCwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T05:46:48.409Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Pool_Coin.cs",
-              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Item\\Pool_Coin.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Item\\Pool_Coin.cs",
-              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Item\\Pool_Coin.cs",
-              "RelativeToolTip": "Assets\\Script\\Item\\Pool_Coin.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAUwCAAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T05:26:28.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Pool_Booster.cs",
-              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Item\\Pool_Booster.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Item\\Pool_Booster.cs",
-              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Item\\Pool_Booster.cs",
-              "RelativeToolTip": "Assets\\Script\\Item\\Pool_Booster.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAUwDsAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T04:23:38.837Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Coin_Script.cs",
-              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Item\\Coin_Script.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Item\\Coin_Script.cs",
-              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Item\\Coin_Script.cs",
-              "RelativeToolTip": "Assets\\Script\\Item\\Coin_Script.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T05:44:41.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Heal_Script.cs",
-              "DocumentMoniker": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Item\\Heal_Script.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Item\\Heal_Script.cs",
-              "ToolTip": "C:\\ProjectTA\\ProjectTA\\Assets\\Script\\Item\\Heal_Script.cs",
-              "RelativeToolTip": "Assets\\Script\\Item\\Heal_Script.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T06:32:44.582Z"
             }
           ]
         }
