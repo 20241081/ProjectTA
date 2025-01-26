@@ -48,20 +48,32 @@ public class Obstacle : MonoBehaviour
 
         if (Trigger_DAMAGE)  // 충돌시
         {
-            Manager_GameScene.PlayerHP--;
-            PlayerController.moveSpeed *= 0.3f;  // 감속
-            Trigger_CAUTION = false;
-            Trigger_DAMAGE = false;
+            if (Manager_GameScene.isActive_shield)  // 쉴드 활성중
+            {
+                Manager_GameScene.isActive_shield = false;
+                Trigger_CAUTION = false;
+                Trigger_DAMAGE = false;
+                if (ObstacleType == 1)
+                    StartCoroutine(Disapia_Obs01());   // 장애물 사라지기
+            }
+            else
+            {
+                Manager_GameScene.PlayerHP--;
+                PlayerController.moveSpeed *= 0.3f;  // 감속
+                Trigger_CAUTION = false;
+                Trigger_DAMAGE = false;
 
-            if (ObstacleType == 1)
-                StartCoroutine(Disapia_Obs01());   // 장애물 사라지기
+                if (ObstacleType == 1)
+                    StartCoroutine(Disapia_Obs01());   // 장애물 사라지기
+            }
         }
     }
 
     IEnumerator Disapia_Obs01() // 충돌후 사라짐
     {
         yield return StartCoroutine(Delay(DelayTime));
-        Destroy(gameObject);
+        //Destroy(gameObject);
+        gameObject.SetActive(false);
     }
     IEnumerator Delay(float D_Time)
     {
