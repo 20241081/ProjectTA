@@ -13,21 +13,21 @@ public class Manager_GameScene : MonoBehaviour
 
     public static int PlayerHP;
     public static int Score;
-    public static bool isActive_shield; // ½¯µå È°¼ºÈ­ ¿©ºÎ
-    public static bool isActive_booster;    // ºÎ½ºÅÍ È°¼ºÈ­ ¿©ºÎ
-    public static bool trigger_booster; // ºÎ½ºÅÍ È¹µæ ¿©ºÎ
-    public static int coin_a;   // ÇÃ·¹ÀÌ Áß È¹µæÇÑ ÄÚÀÎ
+    public static bool isActive_shield; // ï¿½ï¿½ï¿½ï¿½ È°ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½
+    public static bool isActive_booster;    // ï¿½Î½ï¿½ï¿½ï¿½ È°ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½
+    public static bool trigger_booster; // ï¿½Î½ï¿½ï¿½ï¿½ È¹ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+    public static int coin_a;   // ï¿½Ã·ï¿½ï¿½ï¿½ ï¿½ï¿½ È¹ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-    public static bool Progressing; // °ÔÀÓ ÁøÇà ¿©ºÎ
-    public static bool isGameOver;  // °ÔÀÓ¿À¹ö ¿©ºÎ
+    public static bool Progressing; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+    public static bool isGameOver;  // ï¿½ï¿½ï¿½Ó¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     private bool gameoverScreenOpened;
-    public static bool isScreenMenu;    // ¸Þ´º È­¸é ¿©ºÎ
+    public static bool isScreenMenu;    // ï¿½Þ´ï¿½ È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     private bool menuScreenOpened;
 
-    float delta;    // ÃÊ°ú½Ã°£ ±â·Ï
-    public static int activedObstacleRail; // ÇöÀç Àå¾Ö¹° ÀÖ´Â ·¹ÀÏ;
+    float delta;    // ï¿½Ê°ï¿½ï¿½Ã°ï¿½ ï¿½ï¿½ï¿½
+    public static int activedObstacleRail; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ö¹ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½;
 
-    private int ScorePerDistance;   // °Å¸®¿¡ µû¸¥ ½ºÄÚ¾î
+    private int ScorePerDistance;   // ï¿½Å¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¾ï¿½
 
     public TMP_Text PlayerHPUI;
     public TMP_Text ScoreUI;
@@ -41,13 +41,13 @@ public class Manager_GameScene : MonoBehaviour
     {
         if (!Progressing)
         {
-            // °ÔÀÓ¿À¹ö ½Ã
+            // ï¿½ï¿½ï¿½Ó¿ï¿½ï¿½ï¿½ ï¿½ï¿½
             if (isGameOver && !gameoverScreenOpened)
             {
-                Debug.Log("°ÔÀÓ¿À¹ö");
+                Debug.Log("ï¿½ï¿½ï¿½Ó¿ï¿½ï¿½ï¿½");
                 openGameOver();
                 UIManager.GetComponent<UIManager>().gameoverPanel_OnOff(1);
-                if (gameManager.Instance.nowPlayer.BestScore < Score)   // ÃÖ°í ½ºÄÚ¾î °Ë»ç
+                if (gameManager.Instance.nowPlayer.BestScore < Score)   // ï¿½Ö°ï¿½ ï¿½ï¿½ï¿½Ú¾ï¿½ ï¿½Ë»ï¿½
                 {
                     gameManager.Instance.nowPlayer.BestScore = Score;
                 }
@@ -56,7 +56,7 @@ public class Manager_GameScene : MonoBehaviour
                 gameoverScreenOpened = true;
                 return;
             }
-            // ¸Þ´º È­¸é
+            // ï¿½Þ´ï¿½ È­ï¿½ï¿½
             else if (isScreenMenu)
             {
                 if (!menuScreenOpened)
@@ -69,20 +69,20 @@ public class Manager_GameScene : MonoBehaviour
         {
             if (gameoverScreenOpened || menuScreenOpened)
             {
-                Debug.Log("°ÔÀÓ ½ÃÀÛ");
+                Debug.Log("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
                 gameStart();
                 UIManager.GetComponent<UIManager>().ProgressingUI_OnOff(1);
                 UIManager.GetComponent<UIManager>().menuScreen_OnOff(0);
             }
             else
             {
-                if (PlayerHP <= 0 && Progressing)  // °ÔÀÓ¿À¹ö
+                if (PlayerHP <= 0 && Progressing)  // ï¿½ï¿½ï¿½Ó¿ï¿½ï¿½ï¿½
                 {
                     Progressing = false;
                     isGameOver = true;
                 }
 
-                delta += Time.deltaTime;    // °Å¸®¿¡ µû¸¥ ½ºÄÚ¾î ¾÷µ¥ÀÌÆ®
+                delta += Time.deltaTime;    // ï¿½Å¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¾ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®
                 if (delta >= 1)
                 {
                     ScorePerDistance += (int)delta * (int)player.transform.GetComponent<PlayerController>().moveSpeed;
