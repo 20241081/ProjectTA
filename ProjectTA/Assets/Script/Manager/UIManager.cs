@@ -9,6 +9,9 @@ public class UIManager : MonoBehaviour
     private GameObject player;
     [SerializeField] private GameObject GameOverPanel;
     [SerializeField] private GameObject progressingUI;
+    [SerializeField] private GameObject shopScreen;
+
+    [SerializeField] private GameObject menuButtons;
 
     [SerializeField] private TMP_Text playerHP_Text;
     [SerializeField] private TMP_Text Score_Text;
@@ -24,15 +27,16 @@ public class UIManager : MonoBehaviour
     private void Awake()
     {
         GameOverPanel.SetActive(false);
+        shopScreen.SetActive(false);
     }
 
     private void Update()
     {
         if (Manager_GameScene.Progressing)
         {
-            Score_Text.text = "Score : " + Manager_GameScene.Score;  // Score UI ¾÷µ¥ÀÌÆ®
-            playerHP_Text.text = "HP : " + Manager_GameScene.PlayerHP;   // HP UI¾÷µ¥ÀÌÆ®
-            Coin_Text.text = "coin : " + (Manager_GameScene.coin_a + gameManager.Instance.nowPlayer.Coin);  // coin UI ¾÷µ¥ÀÌÆ®
+            Score_Text.text = "Score : " + Manager_GameScene.Score;  // Score UI ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®
+            playerHP_Text.text = "HP : " + Manager_GameScene.PlayerHP;   // HP UIï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®
+            Coin_Text.text = "coin : " + (Manager_GameScene.coin_a + gameManager.Instance.nowPlayer.Coin);  // coin UI ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®
         }
     }
 
@@ -92,4 +96,18 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public void menuAndShopOnOff(int active)
+    {
+        switch (active)
+        {
+            case 0:
+                menuButtons.SetActive(false);
+                shopScreen.SetActive(true);
+                break;
+            case 1:
+                menuButtons.SetActive(true);
+                shopScreen.SetActive(false);
+                break;
+        }
+    }
 }

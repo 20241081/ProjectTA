@@ -20,6 +20,7 @@ public class Manager_GameScene : MonoBehaviour
 
     public static bool Progressing; // ���� ���� ����
     public static bool isGameOver;  // ���ӿ��� ����
+    public static bool isShopOpened;
     private bool gameoverScreenOpened;
     public static bool isScreenMenu;    // �޴� ȭ�� ����
     private bool menuScreenOpened;
@@ -28,10 +29,6 @@ public class Manager_GameScene : MonoBehaviour
     public static int activedObstacleRail; // ���� ��ֹ� �ִ� ����;
 
     private int ScorePerDistance;   // �Ÿ��� ���� ���ھ�
-
-    public TMP_Text PlayerHPUI;
-    public TMP_Text ScoreUI;
-    public TMP_Text CoinUI;
     private void Start()
     {
         statusReset();
@@ -138,6 +135,7 @@ public class Manager_GameScene : MonoBehaviour
         Progressing = false;
         isGameOver = false;
         isScreenMenu = true;
+        isShopOpened = false;
 
         gameoverScreenOpened = false;
         menuScreenOpened = false;

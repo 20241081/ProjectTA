@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Button : MonoBehaviour
 {
+    [SerializeField] private GameObject scenemanager;
+    [SerializeField] private GameObject UImanager;
+
     public void TitleToGameScene()
     {
         SceneManager.LoadScene(1);
@@ -24,14 +27,14 @@ public class Button : MonoBehaviour
 
     public void gameExit()
     {
-        Debug.Log("°ÔÀÓ Á¾·á");
+        Debug.Log("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
         UnityEditor.EditorApplication.isPlaying = false;
         //Application.Quit();
     }
 
     public void ReStart()
     {
-        Debug.Log("´ë±âÈ­¸é º¸±â");
+        Debug.Log("ï¿½ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
         gameManager.renewFile = true;
     }
 
@@ -43,5 +46,15 @@ public class Button : MonoBehaviour
     public void exitMenu()
     {
         Manager_GameScene.Progressing = true;
+    }
+
+    public void menuToShop()
+    {
+        UImanager.GetComponent<UIManager>().menuAndShopOnOff(0);
+    }
+
+    public void ShopToMenu()
+    {
+        UImanager.GetComponent<UIManager>().menuAndShopOnOff(1);
     }
 }
