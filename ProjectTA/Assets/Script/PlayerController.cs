@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     public float sideSpeed = 6.0f;
     public float jumpForce = 6.0f;
+    public Vector3 slindingRotation = new Vector3(45f, 0, 0);
 
     public float lineDistance = 6.0f;
     public static int line = 1;
@@ -27,12 +28,15 @@ public class PlayerController : MonoBehaviour
     // 참조 컴포넌트
     private Rigidbody rb;
     private CapsuleCollider col;
+    private GameObject player;
 
     private void Awake()
     {
         InitPlayer();
         rb = GetComponent<Rigidbody>();
         col = GetComponent<CapsuleCollider>();
+
+        player = GameObject.Find("Player");
     }
     private void FixedUpdate()  // 장애물 감지
     {
@@ -114,8 +118,10 @@ public class PlayerController : MonoBehaviour
 
         if(!isSliding && Input.GetKeyDown(KeyCode.S))
         {
-            isSliding = false;
-            // todo : 슬라이딩 구현 및 콜라이더 범위 수정
+            isSliding = true;
+            player.transform.Rotate(new Vector3(45, 0, 0));
+            rb.mass = 2;
+            StartCoroutine("SlingDelay");
         }
     }
 
@@ -125,5 +131,13 @@ public class PlayerController : MonoBehaviour
         {
             isGround = true;
         }
+    }
+
+    IEnumerator SlingDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        player.transform.Rotate(new Vector3(-45, 0, 0));
+        isSliding = false;
+        rb.mass = 1;
     }
 }

@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\myzzu\\Desktop\\Project TA\\ProjectTA\\ProjectTA\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\users\\myzzu\\desktop\\project ta\\projectta\\projectta\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\projectta\\projectta\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\Users\\myzzu\\Desktop\\Project TA\\ProjectTA\\ProjectTA\\assets\\script\\parabola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\assets\\script\\parabola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\parabola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\Users\\myzzu\\Desktop\\Project TA\\ProjectTA\\ProjectTA\\assets\\script\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\assets\\script\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\Users\\myzzu\\Desktop\\Project TA\\ProjectTA\\ProjectTA\\assets\\script\\manager\\obstaclegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\assets\\script\\manager\\obstaclegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\manager\\obstaclegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\Users\\myzzu\\Desktop\\Project TA\\ProjectTA\\ProjectTA\\assets\\script\\manager\\manager_gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\assets\\script\\manager\\manager_gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\manager\\manager_gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,9 +36,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Obstacle.cs",
-              "DocumentMoniker": "C:\\Users\\myzzu\\Desktop\\Project TA\\ProjectTA\\ProjectTA\\Assets\\Script\\Obstacle.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\Obstacle.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Obstacle.cs",
-              "ToolTip": "C:\\Users\\myzzu\\Desktop\\Project TA\\ProjectTA\\ProjectTA\\Assets\\Script\\Obstacle.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\Obstacle.cs",
               "RelativeToolTip": "Assets\\Script\\Obstacle.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAUwDUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -48,11 +48,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\myzzu\\Desktop\\Project TA\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\myzzu\\Desktop\\Project TA\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAowFIAAAAAAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwHoAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T13:14:09.409Z",
               "EditorCaption": ""
@@ -61,9 +61,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ObstacleGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\myzzu\\Desktop\\Project TA\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\ObstacleGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\ObstacleGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Manager\\ObstacleGenerator.cs",
-              "ToolTip": "C:\\Users\\myzzu\\Desktop\\Project TA\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\ObstacleGenerator.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\ObstacleGenerator.cs",
               "RelativeToolTip": "Assets\\Script\\Manager\\ObstacleGenerator.cs",
               "ViewState": "AQIAAEkAAAAAAAAAAAAAAF4AAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,9 +73,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Parabola.cs",
-              "DocumentMoniker": "C:\\Users\\myzzu\\Desktop\\Project TA\\ProjectTA\\ProjectTA\\Assets\\Script\\Parabola.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\Parabola.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Parabola.cs",
-              "ToolTip": "C:\\Users\\myzzu\\Desktop\\Project TA\\ProjectTA\\ProjectTA\\Assets\\Script\\Parabola.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\Parabola.cs",
               "RelativeToolTip": "Assets\\Script\\Parabola.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAkwBoAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -85,9 +85,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Manager_GameScene.cs",
-              "DocumentMoniker": "C:\\Users\\myzzu\\Desktop\\Project TA\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\Manager_GameScene.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\Manager_GameScene.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Manager\\Manager_GameScene.cs",
-              "ToolTip": "C:\\Users\\myzzu\\Desktop\\Project TA\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\Manager_GameScene.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\Manager_GameScene.cs",
               "RelativeToolTip": "Assets\\Script\\Manager\\Manager_GameScene.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
