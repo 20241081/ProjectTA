@@ -372,6 +372,7 @@
 "Assets/Script/Manager/TitleUIManager.cs"
 "Assets/Script/Manager/UIManager.cs"
 "Assets/Script/Obstacle.cs"
+"Assets/Script/Obstacle_Stage02.cs"
 "Assets/Script/Parabola.cs"
 "Assets/Script/PlayerController.cs"
 "Assets/Script/UI_GameOverPanel.cs"

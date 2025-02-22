@@ -13,6 +13,7 @@ public class Manager_GameScene : MonoBehaviour
 
     public static int PlayerHP;
     public static int Score;
+    public static int currentStage;
     public static bool isActive_shield; // ���� Ȱ��ȭ ����
     public static bool isActive_booster;    // �ν��� Ȱ��ȭ ����
     public static bool trigger_booster; // �ν��� ȹ�� ����
@@ -136,6 +137,8 @@ public class Manager_GameScene : MonoBehaviour
         isGameOver = false;
         isScreenMenu = true;
         isShopOpened = false;
+
+        currentStage = 0;
 
         gameoverScreenOpened = false;
         menuScreenOpened = false;
