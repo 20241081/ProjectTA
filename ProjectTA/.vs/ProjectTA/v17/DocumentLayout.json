@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\ScrollRect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\ScrollRect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\projectta\\projectta\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7F9C59-19D0-3615-587F-4C14E501905C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ScrollRect.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\ScrollRect.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\ScrollRect.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\ScrollRect.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\ScrollRect.cs",
+              "ViewState": "AQIAAB4EAAAAAAAAAAAcwC4EAACAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T05:02:14.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Obstacle.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\Obstacle.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Obstacle.cs",
@@ -46,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ObstacleGenerator.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\ObstacleGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Manager\\ObstacleGenerator.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Parabola.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\Parabola.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Parabola.cs",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Manager_GameScene.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\ProjectTA\\ProjectTA\\Assets\\Script\\Manager\\Manager_GameScene.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Manager\\Manager_GameScene.cs",
